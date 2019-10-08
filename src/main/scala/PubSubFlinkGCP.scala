@@ -3,11 +3,10 @@ import org.apache.flink.api.java.utils.ParameterTool
 import org.apache.flink.core.fs.Path
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment
 import org.apache.flink.streaming.api.functions.sink.filesystem.StreamingFileSink
-import org.apache.flink.streaming.connectors.fs.bucketing.BucketingSink
 import org.apache.flink.streaming.connectors.gcp.pubsub.PubSubSource
 
 
-class PubSubFlinkGCP {
+object PubSubFlinkGCP {
   def main(args: Array[String]): Unit = {
     /**
       * Parameters
