@@ -1,6 +1,6 @@
 # Apache Flink example
 
-Run a Pub/Sub Consumner and put info in a bucket
+Run a Pub/Sub Consumer and put info in a bucket
 
 ## Compile and package 
 ```
